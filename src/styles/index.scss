@@ -1,0 +1,35 @@
+@import './variables.scss';
+@import './element-custom.scss';
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+
+label {
+  font-weight: 700;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+.el-icon-refresh-left{
+  cursor: pointer;
+}
+#app {
+  height: 100%;
+}
+.line_01{
+  padding: 0 20px 0;
+  margin: 20px 0;
+  line-height: 1px;
+  border-left: 190px solid #0f0f0f;
+  border-right: 190px solid #040404;
+  text-align: center;
+}

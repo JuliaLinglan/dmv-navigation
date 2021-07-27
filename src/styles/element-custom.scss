@@ -1,0 +1,33 @@
+//创建井组实例穿梭框宽度
+.casegroup-transfer {
+  .el-transfer-panel {
+    width: 300px;
+    .el-transfer-panel__item{
+      display: block !important;
+    }
+  }
+}
+//el-form-item修改默认下边距(22px)
+.el-form-mgb-10 {
+  margin-bottom: 10px;
+  .el-form-item {
+    margin-bottom: 10px;
+  }
+}
+.el-form-mgb-2 {
+  margin-bottom: 5px;
+  .el-form-item {
+    margin-bottom: 5px;
+  }
+}
+//表格提供多选checkbox时表头全选不对齐问题
+.el-table th {
+  .cell {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+}
+// 表格换行
+.multiHeadTable.el-table .cell{
+  white-space:pre-line;
+}
